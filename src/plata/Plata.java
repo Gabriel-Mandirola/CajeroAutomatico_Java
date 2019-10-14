@@ -5,6 +5,8 @@
  */
 package plata;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Gabriel
@@ -24,7 +26,10 @@ public abstract class Plata {
     public void MostrarPlata(){
         int plata = this.plata;
         
-        System.out.println(plata);
+        JOptionPane.showMessageDialog(null, "Tu saldo es: " + plata);
+        
+        
+       // System.out.println(plata);
     }
     
     
